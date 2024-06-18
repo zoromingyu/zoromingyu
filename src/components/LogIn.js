@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
     const [username, setUsername] = useState("");
@@ -18,7 +18,7 @@ const Login = () => {
                 <div class="flex flex-col gap-y-5">
                     <div>
                         <form onSubmit={handleLogin}>
-                            <div class="flex flex-col gap-y-5">
+                            <div class="flex flex-col items-center gap-y-5">
                                 <div class="flex flex-col gap-y-2">
                                     <input
                                         class="border-2 rounded h-10 border-gray-500 pl-4"
@@ -37,7 +37,7 @@ const Login = () => {
                                         required
                                     />
                                 </div>
-                                <button class="bg-[#0C1D32] rounded-3xl text-white h-10" type="submit">Log in</button>
+                                <Link to="/home"><button class="bg-[#0C1D32] rounded-3xl text-white h-10 w-40" type="submit">Log in</button></Link>
                             </div>
                         </form>
                     </div>
