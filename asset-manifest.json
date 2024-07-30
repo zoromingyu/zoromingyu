@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/carrd/static/css/main.cae17a34.css",
+    "main.js": "/carrd/static/js/main.0514890e.js",
+    "static/js/453.6e9633db.chunk.js": "/carrd/static/js/453.6e9633db.chunk.js",
+    "static/media/logo.svg": "/carrd/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/carrd/index.html",
+    "main.cae17a34.css.map": "/carrd/static/css/main.cae17a34.css.map",
+    "main.0514890e.js.map": "/carrd/static/js/main.0514890e.js.map",
+    "453.6e9633db.chunk.js.map": "/carrd/static/js/453.6e9633db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cae17a34.css",
+    "static/js/main.0514890e.js"
+  ]
+}
