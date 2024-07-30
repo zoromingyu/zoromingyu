@@ -1,7 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import { motion } from "framer-motion";
+import {useState} from "react";
+
 
 const About = () => {
+
+    const [isOn, setIsOn] = useState(false);
+    const expandSong = () => setIsOn(!isOn);
+
     return (
         <div className="flex justify-center items-center h-screen bg-white">
             <div className="flex flex-col justify-center p-8 rounded-md bg-[#121212] text-white gap-y-4">
@@ -23,7 +30,7 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col gap-y-2">
-                        <div className="flex flew-row gap-x-20">
+                        <motion.div className="flex flew-row gap-x-20" whileHover={{scale: 1.1}} data-isOn={isOn} onClick={expandSong}>
                             <div className="flex flex-row gap-x-3">
                                 <img src="https://i1.sndcdn.com/artworks-8yoXjdWWTgPX-0-t500x500.jpg" alt="dust" className="w-10 h-10"/>
                                 <div className="flex flex-col">
@@ -32,8 +39,8 @@ const About = () => {
                                 </div>
                             </div>
                             <div>...</div>
-                        </div>
-                        <div className="flex flew-row gap-x-20">
+                        </motion.div>
+                        <motion.div className="flex flew-row gap-x-20" whileHover={{scale: 1.2}}>
                             <div className="flex flex-row gap-x-3">
                                 <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Henggarae_seventeen_artwork.png" alt="kidult" className="w-10 h-10"/>
                                 <div className="flex flex-col">
@@ -42,7 +49,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div>...</div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>
