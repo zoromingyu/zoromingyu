@@ -1,7 +1,7 @@
 import React from "react";
-import {Navbar} from "../layouts/Navbar";
-import {SignUp} from "../components/SignUp";
-import {Link} from "react-router-dom";
+import { Navbar } from "../layouts/Navbar";
+import { SignUp } from "../components/SignUp";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
@@ -31,7 +31,9 @@ const HomePage = () => {
                             <Link to="/about">
                                 <motion.img src="https://i.pinimg.com/474x/57/47/ae/5747aec4662d057ab2259eb5f0781fbc.jpg" alt="loopy1" className="w-24 h-24" whileHover={{scale: 1.2}} />
                             </Link>
-                            <motion.img src="https://i.pinimg.com/474x/d9/63/49/d963497e59f01fdafb781caae959d601.jpg" alt="loopy2" className="w-24 h-24" whileHover={{scale: 1.2}}/>
+                            <Link to="/interests">
+                                <motion.img src="https://i.pinimg.com/474x/d9/63/49/d963497e59f01fdafb781caae959d601.jpg" alt="loopy2" className="w-24 h-24" whileHover={{scale: 1.2}}/>
+                            </Link>
                             <motion.img src="https://i.pinimg.com/564x/1b/f3/64/1bf364842157f0dbf320e1e77a4492ee.jpg" alt="loopy3" className="w-24 h-24" whileHover={{scale: 1.2}}/>
                         </div>
                     </div>
