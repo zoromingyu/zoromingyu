@@ -69,7 +69,7 @@ const About = () => {
                     </div>
                     <div className="flex flex-row items-center gap-x-2">
                         <img src="https://i.pinimg.com/736x/7b/f5/29/7bf5297b1565febb2359f5cd950399c0.jpg" alt="mingyu" className="rounded-full w-6"/>
-                        <Link to="/mingyu"><div className="text-xs font-bold">kristenwonton</div></Link>
+                        <Link to="/zoromingyu"><div className="text-xs font-bold">kristenwonton</div></Link>
                     </div>
 
                     <div className="flex flex-col gap-y-2">
