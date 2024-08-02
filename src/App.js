@@ -11,7 +11,7 @@ function App() {
     <div className="h-screen flex flex-col overflow-auto bg-[#121212]">
       <Router>
         <Routes>
-          <Route path="/carrd" element={<HomePage/>}/>
+          <Route path="/mingyu" element={<HomePage/>}/>
           <Route path="/about" element={<About/>}/>
         </Routes>
       </Router>
