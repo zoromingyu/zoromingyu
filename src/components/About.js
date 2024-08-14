@@ -51,7 +51,7 @@ const About = () => {
                                     animate="visible"
                                     exit={{ opacity: 0 }}
                                     transition={{ duration: 0.3, ease: "easeIn",opacity: { duration: 0.2 } }}
-                                    className="flex flex-col text-xs"
+                                    className="flex flex-row gap-x-1 text-xs"
                                 >
                                     <div className="font-bold">byf</div>
                                     <div>i go ia when i'm in school</div>
@@ -81,7 +81,7 @@ const About = () => {
                                     animate="visible"
                                     exit={{ opacity: 0 }}
                                     transition={{duration: 0.5, ease: "easeIn",opacity: { duration: 0.2 } }}
-                                    className="flex flex-col text-xs"
+                                    className="flex flex-row gap-x-1 text-xs"
                                 >
                                     <div className="font-bold">dni</div>
                                     <div className="flex flex-col">
